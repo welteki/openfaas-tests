@@ -1,3 +1,3 @@
-# OpenFaaS examples and tests
+# OpenFaaS tests
 
 Collection of notes and tests for OpenFaaS
