@@ -9,5 +9,5 @@ for ((i=1; i<=$N; i++ ));
 do
  sudo ctr -n openfaas-fn task rm figlet -f > /dev/null 2>&1
  sleep 1
- k6 run -q --vus 30 --duration 15s ${script_dir}/script.js -o output-prometheus-remote
+ k6 run -q ${script_dir}/script.js -o output-prometheus-remote
 done
